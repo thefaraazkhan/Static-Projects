@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.car-img{
+    width: 700px;
+    position: relative;
+    transform: translate(-35%, -10%);
+}
+
+.text{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    margin: 2rem;
+}
+
+.title{
+    font-size: 2.7rem;
+    margin: 15px 0;
+    font-weight: 700;
+    
+}
+
+.sub-title{
+    color: #bbc2c8;
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+.btn{
+    margin-top: 1.2rem 0;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem ;
+}
